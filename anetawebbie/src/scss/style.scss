@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+  body {
+    font-family: "Alegreya+Sans";
+  }
+
+  .page1 {
+ 
+
+
+    .header1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    } .header1__nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #ebebeb;
+        margin-left: 15%;
+        
+    } a {
+        text-decoration: none;
+        color: #232323;
+        font-weight: bold;
+        
+    }
+} 
+
+.containerimage1 {
+    background-image: url("/img/greenbackground.jpg");
+    height: 600px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        color: #ffffff;
+        font-size: 40px;
+
+       strong {
+        color: #ebebeb;
+        font-weight: bold;
+        text-decoration: underline #54be90
+
+        }
+    }  h2 {
+        color: #ffffff;
+        font-size: 35px;
+        margin-top: 0%;
+    }
+}
+
+.page2 {
+
+    .header2 {
+background-color: forestgreen;
+padding: 20%;
+
+    }
+}
